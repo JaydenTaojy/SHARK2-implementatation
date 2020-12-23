@@ -6,10 +6,15 @@ Implementation of Shark2 Algorithm
 There are five steps:
 
 Sampling
+
 Pruning
+
 Shape Score
+
 Location Score
+
 Compute Integration score and return top-n words
+
 Sampling
 
 The user template and the word templates can be simply viewed as vectors. In order to meaninfully compare two vectors they have be of equal size. We have chosen 100 to be the size of our vectors. So we need to sample 100 equidistant points in the user template and the model template. The approach is the following:
